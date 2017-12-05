@@ -4,7 +4,9 @@ applications:
   host: allocations-pal-alan-flower
   memory: 1G
   instances: 1
-  
+
   services:
   - tracker-allocations-database
   - tracker-service-registry
+  - tracker-circuit-breaker-dashboard
+  - tracker-amqp
